@@ -1,0 +1,6 @@
+{
+  "name": "Open Whiteboard",
+  "description": "Versatile digital whiteboard and sketch canvas with infinite panning, smooth vector drawing, sticky notes, shapes, and templates.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

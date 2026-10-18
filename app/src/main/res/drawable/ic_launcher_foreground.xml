@@ -1,0 +1,55 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+    <!-- Whiteboard Board Background Frame with soft shadow -->
+    <path
+        android:fillColor="#F8FAFC"
+        android:pathData="M 28 26 H 80 A 6 6 0 0 1 86 32 V 76 A 6 6 0 0 1 80 82 H 28 A 6 6 0 0 1 22 76 V 32 A 6 6 0 0 1 28 26 Z" />
+    
+    <!-- Whiteboard Top Clip / Header Bar -->
+    <path
+        android:fillColor="#3B82F6"
+        android:pathData="M 28 26 H 80 A 6 6 0 0 1 86 32 V 34 H 22 V 32 A 6 6 0 0 1 28 26 Z" />
+        
+    <!-- Whiteboard Marker Tray -->
+    <path
+        android:fillColor="#64748B"
+        android:pathData="M 32 82 H 76 V 85 A 2 2 0 0 1 74 87 H 34 A 2 2 0 0 1 32 85 Z" />
+
+    <!-- Pen / Marker Body on Board -->
+    <!-- Drawn Shape: Cyan Circle on board -->
+    <path
+        android:strokeColor="#06B6D4"
+        android:strokeWidth="3"
+        android:fillColor="#E0F2FE"
+        android:pathData="M 38 46 A 8 8 0 1 0 38 46.1" />
+
+    <!-- Drawn Shape: Orange Sticky Note -->
+    <path
+        android:fillColor="#FDE047"
+        android:pathData="M 52 40 H 68 V 56 H 52 Z" />
+    <path
+        android:strokeColor="#CA8A04"
+        android:strokeWidth="1.5"
+        android:pathData="M 55 45 H 65 M 55 49 H 63 M 55 53 H 60" />
+
+    <!-- Dynamic Curved Stroke (Signature Whiteboard Drawing Curve) in Indigo/Violet -->
+    <path
+        android:strokeColor="#6366F1"
+        android:strokeWidth="3.5"
+        android:strokeLineCap="round"
+        android:pathData="M 32 68 C 42 60 52 72 64 64 C 70 60 76 66 80 62" />
+
+    <!-- Stylus / Marker Pen Floating at bottom right -->
+    <path
+        android:fillColor="#EF4444"
+        android:pathData="M 72 74 L 79 67 L 83 71 L 76 78 Z" />
+    <path
+        android:fillColor="#CBD5E1"
+        android:pathData="M 76 78 L 74 84 L 72 74 Z" />
+    <path
+        android:fillColor="#1E293B"
+        android:pathData="M 74 84 L 73 86 L 75 83 Z" />
+</vector>
